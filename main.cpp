@@ -8,6 +8,16 @@
 int main() {
     // 1. Variables (siempre inicializadas)
     //    TODO: ¿qué variables necesitas? ¿De qué tipo? ¿Con qué valor empiezan?
+ double ancho = 0;
+double alto = 0;
+double area = 0;
+double perimetro = 0;
+
+// 2 y 3. Entrada (todavía sin validar)
+ancho = leerDecimal("Escribe el ancho en cm (mayor que 0): ");
+alto = leerDecimal("Escribe el alto en cm (mayor que 0): ");
+
+std::cout << "Ancho: " << ancho << " Alto: " << alto << "\n";
 
     std::cout << "Area y perimetro de un rectangulo\n";
 

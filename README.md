@@ -16,7 +16,8 @@ _____
 2. _____
 
 **Fórmulas** (área y perímetro):
-_____
+Area= b x h
+Perimetro= 2(b x h)
 
 ## 3. Restricciones e invariante (Fase 1 y 2)
 
