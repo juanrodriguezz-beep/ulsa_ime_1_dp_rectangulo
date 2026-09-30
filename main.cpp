@@ -22,14 +22,12 @@ double perimetro = 0;
         std::cout << "El ancho debe ser mayor a 0\n";
         ancho = leerDecimal("Escribe el ancho en cm (mayor que 0): ");
         }
+
 alto = leerDecimal("Escribe el alto en cm (mayor que 0): ");
  while (alto <= 0) {
         std::cout << "El alto debe ser mayor a 0\n";
         alto = leerDecimal("Escribe el alto en cm (mayor que 0): ");
         }
-
-
-
 
     // 2. Entrada: el ancho
     //    TODO: lee el ancho con leerDecimal("...")
